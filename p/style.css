@@ -63,7 +63,7 @@ transition-delay: 0.3s;
 
 #nav_Inner {
   background-color: #ffffffbd;
-width: calc(100% - 78px);
+width: calc(100% - 66px);
 height: 70px;
 margin: auto;
 left: 0;
@@ -74,7 +74,7 @@ justify-content: space-between;
 border-radius: 8px;
 padding-right: 18px;
 backdrop-filter: blur(10px);
-padding-left: 30px;
+padding-left: 18px;
 box-shadow: 1px 8px 12px #00000026;
  border: 1px solid #f3f3f3bd;
 }
@@ -90,6 +90,10 @@ display:none!important;
   float: right;
 
 
+}
+#nav_Middle a,  #nav_LeftSide a, #nav_RightSide a{
+  margin-left:5px;
+  margin-right:5px;
 }
 #nav_LeftSide, #nav_RightSide, #nav_Middle{
   display: flex;
@@ -112,7 +116,8 @@ width:149px;
   justify-content: center;
   align-items: center;
   color:#222222;
-  font-weight: 600;
+  font-weight: 700;
+  font-size: 19px;
   -webkit-transition: background-color 100ms linear, transform 100ms linear;
   -ms-transition: background-color 100ms linear, transform 100ms linear;
   transition: background-color 100ms linear, transform 100ms linear;
@@ -172,7 +177,9 @@ button:hover{
 }
 #logo_top {
   height: 60px;
-
+  padding-right: 24px;
+  border-right: 1px solid #e0dada;
+  height: 60px;
 }
 
 a,
@@ -488,9 +495,9 @@ z-index: 1;
     width: 220px;
     border: unset;
     text-transform: uppercase;
-    font-weight: bold;
     font-size: 17px;
     border-radius: 3px;
+    font-weight: 800;
       }
       #game_info_landing{
 display: flex;
@@ -574,7 +581,8 @@ display: flex;
         .showcase_game p{
           font-weight: bold;
     color: #c6c6c6;
-    margin: 0;
+  margin-top:0px;
+  margin-bottom:0px;
           font-size: 10pt;
       }
      .showcase_game img:hover{
@@ -614,6 +622,14 @@ border-radius: 7px;
       }
        @media only screen and (max-width: 1280px){
       
+
+        #main, #page_content {
+          width:calc(100% - 22px);
+          padding-left: 11px;
+  padding-right: 11px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+        }
       .landing-page{
       width:100%;
       }
@@ -658,6 +674,8 @@ border-radius: 7px;
     margin-top: 9px;
 }
              @media only screen and (max-width: 875px) {
+              
+              .button {display:none;}
   
         #discord_section img{
       width:calc(100vw - 10px);
@@ -707,8 +725,8 @@ border-radius: 7px;
       font-size:23px;
       }
       h1, p {
-    margin-left: 21px;
-      margin-right: 21px;
+    margin-left: 0px;
+      margin-right: 0px;
 }
       #main_peachy_t_mobile{
       background-image:url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjar2DzL2iC063lq3hT8HCunhneE4rGmUeTNh2gJ8290n0uqhBkZPlQI54s_TZZH_eu5tVVvAQ-tSNu8ETQ_l8R2W27npAY_izpMvDTMODGLmk8fz7eKgMEP5RmfXqpQv1CqEjAeflfeZTenFsBpFwiVHDOhYn3vfgR5NnJ5yN9GpOzho_dpiK-Q2i8Sw/w396-h640/cover%20emptyy.jpg');
@@ -756,7 +774,7 @@ width: 100%;
       .workshow_info h3 {
     padding-left: 9px;
       }
-      h2,h3 {
+      h2,h3,p {
           margin-left: 6px;
       }
         #main_peachy_t, #main_peachy_t_blocker{
@@ -784,7 +802,9 @@ width: 100%;
       }
       
       #logo_top{
-      margin-top: 10px;
+        border:unset;
+        padding:unset;
+margin:unset;
  height: 60px;
       
       }
