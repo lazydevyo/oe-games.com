@@ -18,7 +18,7 @@ html, body{
     cursor: hand;
   }
   #MainSpacer{
-    height: calc(80vh - 75px);
+    height: calc(95vh - 75px);
   }
   #main{
     max-width: 1178px;
@@ -43,7 +43,7 @@ html, body{
   left: 0;
   right: 0;
   width: 100%;
-  height: 90px;
+  height: 98px;
   display: inline-flex;
   align-items: center;
   justify-content: space-between;
@@ -62,8 +62,8 @@ html, body{
   }
   
   #nav_Inner {
-  background-color: #ffffffe8;
-  width: calc(100% - 103px);
+    background-color: #ffffffbd;
+  width: calc(100% - 78px);
   height: 70px;
   margin: auto;
   left: 0;
@@ -76,11 +76,12 @@ html, body{
   backdrop-filter: blur(10px);
   padding-left: 30px;
   box-shadow: 1px 8px 12px #00000026;
-   border: 1px solid #e0e0e0;
+   border: 1px solid #f3f3f3bd;
   }
   
   #nav_LeftSide {
     float: left;
+    
   }
   
   #nav_RightSide {
@@ -89,6 +90,13 @@ html, body{
     float: right;
   
   
+  }
+  #nav_LeftSide, #nav_RightSide, #nav_Middle{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
   }
   
   #nav_blank{
@@ -141,7 +149,27 @@ html, body{
   #learnmore {
     width: 114px;
   }
+  button {
+    -webkit-transition: background-color 100ms linear, transform 100ms linear;
+    -ms-transition: background-color 100ms linear, transform 100ms linear;
+    transition: background-color 100ms linear, transform 100ms linear;
+    
+         margin-top: 16px;
+    margin-bottom: 16px;
+    background-color: #cd1d1d;
+    color: #fff;
+    padding: 8px;
+    width: 201px;
+    border: unset;
+   
+    font-weight: bold;
+    font-size: 17px;
+    border-radius: 3px;
+  }
   
+  button:hover{
+   transform: scale(1.02); 
+  }
   #logo_top {
     height: 60px;
   
@@ -371,7 +399,7 @@ html, body{
         .landing-page{
         margin-top:-90px;
         width: 100%;
-           height: calc(80vh + 117px);
+           height: calc(95vh + 117px);
             background-color: #000;
   
       }
@@ -390,7 +418,7 @@ html, body{
       width: inherit;
       overflow: hidden;
       width: 100%;
-      height: calc(80vh + 117px);
+      height: calc(95vh + 117px);
       aspect-ratio: 16/9;
       pointer-events: none;
       }
