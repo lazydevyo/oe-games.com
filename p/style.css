@@ -86,7 +86,7 @@ box-shadow: 1px 8px 12px #00000026;
 
 #nav_RightSide {
 /* na mhn fenete epidi den exei tipota*/
-display:none;
+display:none!important;
   float: right;
 
 

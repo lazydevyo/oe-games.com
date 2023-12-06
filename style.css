@@ -86,7 +86,7 @@ html, body{
   
   #nav_RightSide {
   /* na mhn fenete epidi den exei tipota*/
-  display:none;
+  display:none!important;
     float: right;
   
   
