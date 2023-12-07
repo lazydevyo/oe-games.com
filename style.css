@@ -1,3 +1,32 @@
+   /* animation */
+   @keyframes slideFromBottom {
+    from {
+         opacity: 0;
+      transform: translateY(10%); /* Move the element down by its own height */
+    }
+    to {
+         opacity: 1;
+      transform: translateY(0); /* Move the element to its original position */
+    }
+  }
+      @keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+   opacity: 1;
+    }
+  }
+    .post , #page_content{
+      animation: slideFromBottom 0.3s ease-out;
+
+}
+    
+    .bg-photo, .post-footer.container, .landing-page, .post-image-main{
+     animation: fade 0.3s ease-out;
+    }
+
+
 html, body{
   margin:0;
 
