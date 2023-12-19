@@ -1,0 +1,14 @@
+[
+    {
+      "relation": [
+        "delegate_permission/common.handle_all_urls"
+      ],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.Evag.SMX",
+        "sha256_cert_fingerprints": [
+          "5C:F4:60:30:C0:DA:D9:AC:F0:3A:AA:94:86:64:AA:A0:27:87:09:C1:7A:C8:3B:04:42:07:EC:FE:C3:6D:1E:FF"
+        ]
+      }
+    }
+  ]
