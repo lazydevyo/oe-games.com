@@ -355,6 +355,14 @@ line-height: 14pt;
 .footer_items_2{
  
   }
+
+  .footer_items_2 a {
+    color:#000;
+  }
+  
+  .footer_items_2 a:visited {
+    color:#000;
+  }
   .termWindow hr{
     width: 100%;
     height: 1px;
