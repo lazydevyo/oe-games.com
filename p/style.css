@@ -398,7 +398,7 @@ line-height: 14pt;
     background-color: #cd1d1d;
     color: #fff;
   }
-  .footer_button {
+  .footer_Button {
 
 
 
@@ -422,7 +422,7 @@ line-height: 14pt;
     transition: background-color 100ms linear, transform 100ms linear;
   }
   
-  .footer_button:hover {
+  .footer_Button:hover {
     cursor: pointer;
     border: 0px solid #000;
     background-color: #cd1d1d;
