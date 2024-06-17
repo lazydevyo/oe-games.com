@@ -216,7 +216,9 @@ a:active {
   color: #cd1d1d;
   text-decoration: none;
 }
-
+a:visited{
+  color: #cd1d1d;
+}
 a:hover{
   color: #ff0000;
 }
