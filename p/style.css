@@ -780,6 +780,18 @@ border-radius: 7px;
       }  
       }
       @media only screen and (max-width: 1200px) {
+        
+          #footer_f{
+          height: 280px;
+          }
+          #peachyfooter{
+          flex-direction: column;
+          }
+          #footer_items{
+          text-align: center;
+          align-items: center;
+          }
+
           .center-top{
       display:none;
       }
