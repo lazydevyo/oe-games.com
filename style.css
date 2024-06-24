@@ -121,6 +121,9 @@ display:none!important;
 #nav_Middle a,  #nav_LeftSide a, #nav_RightSide a{
   margin-left:5px;
   margin-right:5px;
+
+  display: flex;
+  align-items: center;
 }
 #nav_LeftSide, #nav_RightSide, #nav_Middle{
   display: flex;
@@ -134,7 +137,10 @@ display:none!important;
 width:149px;
 }
 .button {
-  width: 99px;
+  width: auto;
+  margin:10px;
+  padding-left: 10px;
+  padding-right: 10px;
   height: 45px;
   border: 0px solid #fff;
   border-radius: 5px;
@@ -144,7 +150,7 @@ width:149px;
   align-items: center;
   color:#222222;
   font-weight: 700;
-  font-size: 19px;
+  font-size: 17px;
   -webkit-transition: background-color 100ms linear, transform 100ms linear;
   -ms-transition: background-color 100ms linear, transform 100ms linear;
   transition: background-color 100ms linear, transform 100ms linear;
@@ -206,7 +212,6 @@ button:hover{
   height: 60px;
   padding-right: 24px;
   border-right: 1px solid #e0dada;
-  height: 60px;
 }
 
 a,
@@ -561,6 +566,8 @@ text-decoration: underline;
         background-size: cover;
         position:absolute;
     }
+    #landvidutube{display:none;}
+
     .landing-bgvideo{
 z-index: 1;
     position: absolute;
@@ -571,7 +578,7 @@ z-index: 1;
     aspect-ratio: 16/9;
     pointer-events: none;
     }
-         .landing-bgvideo iframe{
+         .landing-bgvideo iframe, .videolandingmp4{
      width: 300%;
     height: 180%;
     margin-left: -100%;

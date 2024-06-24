@@ -121,6 +121,9 @@ display:none!important;
 #nav_Middle a,  #nav_LeftSide a, #nav_RightSide a{
   margin-left:5px;
   margin-right:5px;
+
+  display: flex;
+  align-items: center;
 }
 #nav_LeftSide, #nav_RightSide, #nav_Middle{
   display: flex;
@@ -133,8 +136,11 @@ display:none!important;
 #nav_blank{
 width:149px;
 }
+
 .button {
-  width: 99px;
+  width: auto;
+  padding-left: 10px;
+  padding-right: 10px;
   height: 45px;
   border: 0px solid #fff;
   border-radius: 5px;
@@ -206,7 +212,7 @@ button:hover{
   height: 60px;
   padding-right: 24px;
   border-right: 1px solid #e0dada;
-  height: 60px;
+
 }
 
 a,
