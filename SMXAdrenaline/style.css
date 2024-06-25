@@ -855,6 +855,15 @@ z-index: 1;
      .showcase_game img:hover{
       transform: scale(1.05);
       }
+      .screenshot_buttons{
+        top: calc(50% + 28px);
+    display: flex;
+    position: absolute;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+      }
       #main img{
       transition: transform .2s;
       }
