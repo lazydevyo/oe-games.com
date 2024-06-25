@@ -566,7 +566,7 @@ text-decoration: underline;
         background-size: cover;
         position:absolute;
     }
-    #landvidutube{display:none;}
+    #landvidutube{}
 
     .landing-bgvideo{
 z-index: 1;
