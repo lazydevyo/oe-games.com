@@ -789,10 +789,20 @@ border-radius: 7px;
       @media only screen and (max-width: 1200px) {
         
           #footer_f{
-          height: 280px;
+            height: 274px;
           }
+          .footer_items_1, .footer_items_2{
+            padding-left:0px;
+            margin-top:15px;
+            margin-bottom:15px;
+            }
           #peachyfooter{
-          flex-direction: column;
+            margin-bottom: 55px;
+            height: 168px;
+            width: 90%;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
           }
           #footer_items{
           text-align: center;
@@ -977,6 +987,11 @@ margin:unset;
       .centered-top{
           justify-content:right;
       }
+
+      #peachyfooter img {
+        height: 50px;
+        }
+        
       }
        @media only screen and (max-width: 745px) {
       .item-view .post-outer {
