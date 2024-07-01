@@ -41,6 +41,21 @@ body {
   justify-content: flex-start;
 
 }
+
+
+@property --gradient_c_1 {
+  syntax: '<color>';
+  initial-value: #fff;
+  inherits: false;
+}
+
+@property --gradient_c_2 {
+  syntax: '<color>';
+  initial-value: #fff;
+  inherits: false;
+}
+
+
 button{
   cursor: hand;
 }
@@ -68,19 +83,22 @@ button{
 
 }
 #navigationbar {
-    z-index: 98;
-top: 0px;
-position: fixed;
-margin: auto;
-left: 0;
-right: 0;
-width: 100%;
-height: 98px;
-display: inline-flex;
-align-items: center;
-justify-content: space-between;
-transition: top 0.5s;
-transition-delay: 0.3s;
+  z-index: 98;
+  top: 0px;
+  position: fixed;
+  margin: auto;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 104px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: top 0.5s;
+  transition-delay: 0.3s;
+  align-content: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
 }
 
 .post-title {
@@ -97,10 +115,7 @@ transition-delay: 0.3s;
   background-color: #ffffffbd;
 width: calc(100% - 66px);
 height: 70px;
-margin: auto;
-left: 0;
-right: 0;
-display: inline-flex;
+display: flex;
 align-items: center;
 justify-content: space-between;
 border-radius: 8px;
@@ -141,7 +156,7 @@ display:none!important;
 #nav_blank{
 width:149px;
 }
-.button {
+.button, .button_play_top {
   width: auto;
   margin:10px;
   padding-left: 20px;
@@ -156,55 +171,59 @@ width:149px;
   color:#222222;
   font-weight: 700;
   font-size: 17px;
-  -webkit-transition: background-color 100ms linear, transform 100ms linear;
-  -ms-transition: background-color 100ms linear, transform 100ms linear;
-  transition: background-color 100ms linear, transform 100ms linear;
+
+  --gradient_c_1: transparent;
+  --gradient_c_2: transparent;
+
+  background-image: linear-gradient(45deg,var(--gradient_c_1), var(--gradient_c_2));
+  transition: --gradient_c_1 0.3s, --gradient_c_2 0.3s, transform 0.2s, color 0.2s, box-shadow 0.2s;
+
 }
 
 .button:hover {
   cursor: pointer;
   border: 0px solid #000;
-  background-color: #cd1d1d;
+
+
+  --gradient_c_1: #cd1d1d;
+  --gradient_c_2: #f14040;
+
   color: #fff;
   transform: scale(1.05);
-  -webkit-transition: background-color 100ms linear, transform 100ms linear;
-  -ms-transition: background-color 100ms linear, transform 100ms linear;
-  transition: background-color 100ms linear, transform 100ms linear;
+  box-shadow: #ff00008c 0px 0px 13px 1px;
 
-
+  /* box-shadow: #0000001c 1px 1px 17px 4px;*/
 }
 .button_play_top{
-  width: auto;
-  margin:10px;
+  --gradient_c_1: #f14040;
+  --gradient_c_2: #cd1d1d;
   margin-right: -5px;
-  padding-left: 20px;
-  padding-right: 20px;
-  height: 45px;
-  background-color: #cd1d1d;
-  border: 0px solid #fff;
-  border-radius: 5px;
-  display: inline-flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
   color:#fff;
-  font-weight: 700;
-  font-size: 17px;
-  -webkit-transition: background-color 100ms linear, transform 100ms linear;
-  -ms-transition: background-color 100ms linear, transform 100ms linear;
-  transition: background-color 100ms linear, transform 100ms linear;
 }
 
 .button_play_top:hover {
-  cursor: pointer;
-  border: 0px solid #000;
-  background-color: #cd1d1d;
-  color: #fff;
+  --gradient_c_1: #cd1d1d;
+  --gradient_c_2: #f14040;
   transform: scale(1.05);
-  -webkit-transition: background-color 100ms linear, transform 100ms linear;
-  -ms-transition: background-color 100ms linear, transform 100ms linear;
-  transition: background-color 100ms linear, transform 100ms linear;
+  box-shadow: #ff00008c 0px 0px 13px 1px;
+}
 
+.button_white{
+  --gradient_c_1: #f0d6d6;
+  --gradient_c_2: #ffffff;
+
+  color:#cd1d1d;
+
+  background-image: linear-gradient(45deg,var(--gradient_c_1), var(--gradient_c_2));
+  box-shadow: #0000001c 1px 1px 17px 4px;
+  transition: --gradient_c_1 0.3s, --gradient_c_2 0.3s, transform 0.2s, color 0.2s, box-shadow 0.2s;
+}
+.button_white:hover{
+
+  color:#fff;
+  --gradient_c_1: #e4306a;
+  --gradient_c_2: #f14040;
+   box-shadow: #ff00008c 0px 0px 13px 1px;
 
 }
 #signup,
@@ -232,8 +251,8 @@ button {
   -ms-transition: background-color 100ms linear, transform 100ms linear;
   transition: background-color 100ms linear, transform 100ms linear;
   
-       margin-top: 16px;
-  margin-bottom: 16px;
+  margin-top: 20px;
+    margin-bottom: 20px;
   background-color: #cd1d1d;
   color: #fff;
   padding: 14px;
@@ -242,8 +261,20 @@ button {
   font-weight: bold;
   font-size: 17px;
   border-radius: 7px;
+
+  --gradient_c_1: #cd1d1d;
+  --gradient_c_2: #f14040;
+
+  background-image: linear-gradient(45deg,var(--gradient_c_1), var(--gradient_c_2));
+  transition: --gradient_c_1 0.3s, --gradient_c_2 0.3s, transform 0.2s, color 0.2s, box-shadow 0.2s;
 }
 button:hover{
+
+  --gradient_c_1: #f14040;
+  --gradient_c_2: #cd1d1d;
+
+  box-shadow: #ff00008c 0px 0px 13px 1px;
+
   transform: scale(1.02); 
  }
 
@@ -677,9 +708,7 @@ z-index: 1;
       transform: scale(1.02);
       }
       #game_info_landing button{
-      -webkit-transition: background-color 100ms linear, transform 100ms linear;
-    -ms-transition: background-color 100ms linear, transform 100ms linear;
-      transition: background-color 100ms linear, transform 100ms linear;
+
     margin-top: 16px;
     margin-bottom: 16px;
     background-color:#ff0000b3;
@@ -791,7 +820,22 @@ z-index: 1;
         flex-wrap: nowrap;
         justify-content: center;
     }
-    .cont_section_text h1{
+ .cont_section_image div, .cont_section_text div{
+  font-weight:700;
+margin-top:10px;
+margin-bottom:10px;
+text-shadow: #0000003b 2px 2px 10px;
+ }
+ .cont_section_image b, .cont_section_text b{
+  font-weight:900;
+ }
+    .cont_section_text h1, .cont_section_image h1{
+
+      margin-bottom: 10px;
+      margin-top: 10px;
+      text-shadow: #0000003b 2px 2px 10px;
+      font-weight: 900;
+    font-size: 3em;
       text-transform: uppercase;
     }
     .cont_section_image img{

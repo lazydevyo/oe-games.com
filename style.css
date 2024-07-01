@@ -41,6 +41,20 @@ body {
   justify-content: flex-start;
 
 }
+
+@property --gradient_c_1 {
+  syntax: '<color>';
+  initial-value: #fff;
+  inherits: false;
+}
+
+@property --gradient_c_2 {
+  syntax: '<color>';
+  initial-value: #fff;
+  inherits: false;
+}
+
+
 button{
   cursor: hand;
 }
@@ -151,15 +165,24 @@ width:149px;
   color:#222222;
   font-weight: 700;
   font-size: 17px;
+
   -webkit-transition: background-color 100ms linear, transform 100ms linear;
   -ms-transition: background-color 100ms linear, transform 100ms linear;
-  transition: background-color 100ms linear, transform 100ms linear;
+
+  --gradient_c_1: transparent;
+  --gradient_c_2: transparent;
+
+  background-image: linear-gradient(45deg,var(--gradient_c_1), var(--gradient_c_2));
+  transition: --gradient_c_1 0.3s, --gradient_c_2 0.3s, transform 0.2s, color 0.2s, box-shadow 0.2s;
 }
 
 .button:hover {
   cursor: pointer;
   border: 0px solid #000;
-  background-color: #cd1d1d;
+
+  --gradient_c_1: #e4306a;
+  --gradient_c_2: #f14040;
+  
   color: #fff;
   transform: scale(1.05);
   -webkit-transition: background-color 100ms linear, transform 100ms linear;
