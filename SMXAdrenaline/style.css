@@ -942,10 +942,7 @@ border-radius: 7px;
       }
        @media only screen and (max-width: 1280px){
       
-#logo_top_game{
-  margin-left: 0;
-  margin-right: 36px;
-}
+
 
         #main, #page_content {
           width: 100%;
@@ -1035,7 +1032,7 @@ border-radius: 7px;
     margin-top: 9px;
 }
              @media only screen and (max-width: 875px) {
-
+           
               .videolandingmp4{
                 margin-top: -70%;
                 margin-left: -143%;
@@ -1048,7 +1045,13 @@ border-radius: 7px;
       width:calc(100vw - 10px);
       border-radius:11px;
       }
-      
+      .section_discord_image{
+        display:none;
+      }
+      .cont_section_text h1, .cont_section_image h1 {
+        text-shadow: #0000003b 2px 2px 19px;
+        font-size: 1.7em;
+      }
      .landing-bgvideo {
       width: 100%;
       height: calc(100vh - 74px);
@@ -1066,6 +1069,17 @@ border-radius: 7px;
       height: calc(100vh - 74px);
   
       }
+      #logo_top_game{
+        margin-left: 0;
+        margin-right: 0;
+      }
+      .Game_info_title{
+        font-size: 25px;
+      }
+      .Game_info_description{
+        font-size: 14px;
+      }
+    
       #MainSpacer{
           height: calc(100vh - 74px);
       }
@@ -1077,9 +1091,11 @@ border-radius: 7px;
     clip-path: polygon(0 0,calc(55% - 200px) 0,calc(55% - 186px) 21px,calc(45% + 186px) 21px,calc(45% + 200px) 0,100% 0,100% 99%,0 100%);
       }
       #game_info_landing{
+        height: 332px;
       width: 97vw;
       }
       .game_logo_landing{
+        margin-bottom:0px;
       width: 100%;
     height: calc(100vw / 4.6);
       }
