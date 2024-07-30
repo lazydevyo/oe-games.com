@@ -41,6 +41,20 @@ body {
   justify-content: flex-start;
 
 }
+
+@property --gradient_c_1 {
+  syntax: '<color>';
+  initial-value: #fff;
+  inherits: false;
+}
+
+@property --gradient_c_2 {
+  syntax: '<color>';
+  initial-value: #fff;
+  inherits: false;
+}
+
+
 button{
   cursor: hand;
 }
@@ -70,7 +84,6 @@ margin: auto;
 left: 0;
 right: 0;
 width: 100%;
-height: 98px;
 display: inline-flex;
 align-items: center;
 justify-content: space-between;
@@ -98,7 +111,7 @@ right: 0;
 display: inline-flex;
 align-items: center;
 justify-content: space-between;
-border-radius: 8px;
+border-radius: 0px 0px 8px 8px;
 padding-right: 18px;
 backdrop-filter: blur(10px);
 padding-left: 18px;
@@ -118,6 +131,12 @@ display:none!important;
 
 
 }
+#nav_Middle{
+
+    margin-right: -18px;
+    border-radius: 0px 0px 8px 0px;
+    background-color: #ffffffde;
+}
 #nav_Middle a,  #nav_LeftSide a, #nav_RightSide a{
   margin-left:5px;
   margin-right:5px;
@@ -126,6 +145,7 @@ display:none!important;
   align-items: center;
 }
 #nav_LeftSide, #nav_RightSide, #nav_Middle{
+  height:100%;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -148,18 +168,29 @@ width:149px;
   text-align: center;
   justify-content: center;
   align-items: center;
-  color:#222222;
-  font-weight: 700;
-  font-size: 17px;
+  color:#000;
+  font-weight: 900;
+  letter-spacing: -0.4pt;
+  text-transform: uppercase;
+  font-size: 11pt;
   -webkit-transition: background-color 100ms linear, transform 100ms linear;
   -ms-transition: background-color 100ms linear, transform 100ms linear;
-  transition: background-color 100ms linear, transform 100ms linear;
+
+  --gradient_c_1: transparent;
+  --gradient_c_2: transparent;
+
+  background-image: linear-gradient(45deg,var(--gradient_c_1), var(--gradient_c_2));
+  transition: --gradient_c_1 0.3s, --gradient_c_2 0.3s, transform 0.2s, color 0.2s, box-shadow 0.2s;
 }
 
 .button:hover {
   cursor: pointer;
   border: 0px solid #000;
-  background-color: #cd1d1d;
+
+  --gradient_c_1: #e4306a;
+  --gradient_c_2: #f14040;
+  box-shadow: #f14040eb 0px 0px 19px;
+  
   color: #fff;
   transform: scale(1.05);
   -webkit-transition: background-color 100ms linear, transform 100ms linear;
@@ -172,15 +203,22 @@ width:149px;
 #signup,
 #learnmore,
 #active_button, #about_button_active {
-  background-color: #222222;
+  --gradient_c_1: #000;
+  --gradient_c_2: #3a3a3a;
+  background-image: linear-gradient(45deg, --gradient_c_1, --gradient_c_1);
+  box-shadow: #00000051 0px 0px 19px;
   color: #fff;
+  transition: --gradient_c_1 0.3s, --gradient_c_2 0.3s, transform 0.2s, color 0.2s, box-shadow 0.2s;
+
 }
 
 #signup:hover,
 #learnmore:hover,
 #active_button:hover,
 #about_button_active:hover {
-  background-color: #cd1d1d;
+  --gradient_c_1: #e4306a;
+  --gradient_c_2: #f14040;
+  box-shadow: #f14040eb 0px 0px 19px;
 
 }
 
@@ -209,10 +247,74 @@ button:hover{
  transform: scale(1.02); 
 }
 #logo_top {
-  height: 60px;
-  padding-right: 24px;
-  border-right: 1px solid #e0dada;
+  width: 152px;
+  height: 48px;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4waNqgN9uR3MTspokuWG3BsdmahTzd09i6tgMK4YrmD-bf5Qb_WACsheLcQWRSI5aA97bwKWMzW4Zr6SCzZzRj1iT1F0_BXB81N481UjziRnCH4N0ML4PqeWynor0Y4GQim9b21y_9HSICAZYVIQiVDS2spJK1UHEb5lS_pAxI3DlEmbK0UWlWNZFEE5K/s320/oe_games_beveled_logo.png);
+  -webkit-transition: transform 100ms linear;
+  -ms-transition: transform 100ms linear;
+  transition: transform 100ms linear;
 }
+#logo_top:hover{
+  transform:scale(1.03);
+  }
+  #logo_top a{
+    width:100%;
+    height:100%;
+  }
+
+#SouzaSimButton, #SMXSXVSMXButton, #SMXAdrenalineButton{
+
+  background-repeat: no-repeat;
+  background-position: center;
+
+  -webkit-transition: transform 100ms linear;
+  -ms-transition: transform 100ms linear;
+  transition: transform 100ms linear;
+  box-shadow:unset;
+}
+#SouzaSimButton{
+  background-size: auto 92%;
+  width: 133px;
+  height: 48px;
+  background-image:url(images/souzasim_logo.png);
+}
+#SMXSXVSMXButton{
+  background-size: auto 70%;
+  background-position-y: 83%;
+  width: 125px;
+  height: 48px;
+  background-image:url(images/smx_logo.png);
+}
+#SMXAdrenalineButton{
+  background-size: auto 78%;
+  width: 165px;
+  height: 48px;
+  background-image:url(images/smxadrenaline_logo.png);
+}
+.nav_seperator{
+  display: flex;
+  width: 1px;
+  height: 70px;
+  align-items: stretch;
+  background-color: #f7f7f7;
+
+}
+.Logo_section {
+  display: flex;
+  height: 69px;
+  width: 170px;
+  margin-left: -19px;
+  border-radius: 0px 0px 0px 8px;
+  background-color: #ffffffde;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
 
 a,
 a:link,
@@ -334,6 +436,19 @@ a:hover{
         justify-content: center;
       }
 
+      #footer_logo{
+        width: 228px;
+        height: 74px;
+        background-size: auto 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+      background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4waNqgN9uR3MTspokuWG3BsdmahTzd09i6tgMK4YrmD-bf5Qb_WACsheLcQWRSI5aA97bwKWMzW4Zr6SCzZzRj1iT1F0_BXB81N481UjziRnCH4N0ML4PqeWynor0Y4GQim9b21y_9HSICAZYVIQiVDS2spJK1UHEb5lS_pAxI3DlEmbK0UWlWNZFEE5K/s320/oe_games_beveled_logo.png);
+      }
+      #footer_logo a {
+        width:100%;
+        height:100%;
+        display: block;
+      }
   #peachyfooter {
     display: flex;
     width: 1203px;
@@ -422,20 +537,25 @@ line-height: 14pt;
     color:#222222;
     font-weight: 700;
     font-size: 11pt;
-    -webkit-transition: background-color 100ms linear, transform 100ms linear;
-    -ms-transition: background-color 100ms linear, transform 100ms linear;
-    transition: background-color 100ms linear, transform 100ms linear;
+
+    --gradient_c_1: transparent;
+    --gradient_c_2: transparent;
+  
+    background-image: linear-gradient(45deg,var(--gradient_c_1), var(--gradient_c_2));
+    transition: --gradient_c_1 0.3s, --gradient_c_2 0.3s, transform 0.2s, color 0.2s, box-shadow 0.2s;
+  
   }
   
   .footer_Button:hover {
     cursor: pointer;
     border: 0px solid #000;
-    background-color: #cd1d1d;
+
+    --gradient_c_1: #000;
+    --gradient_c_2: #3a3a3a;
+    box-shadow: #00000051 0px 0px 19px;
     color: #fff;
     transform: scale(1);
-    -webkit-transition: background-color 100ms linear, transform 100ms linear;
-    -ms-transition: background-color 100ms linear, transform 100ms linear;
-    transition: background-color 100ms linear, transform 100ms linear;
+
   
   
   }
