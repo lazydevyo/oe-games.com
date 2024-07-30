@@ -1119,6 +1119,7 @@ margin:unset;
         }
         .Logo_section{
           background-color:unset;
+          margin:unset;
         }
       .item-view .post-outer {
     background: unset;
@@ -1134,4 +1135,5 @@ margin:unset;
   margin-left: -143%;
   width:400%;
 }
+
       }
