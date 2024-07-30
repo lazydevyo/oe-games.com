@@ -1266,7 +1266,12 @@ margin:unset;
         }
       }
        @media only screen and (max-width: 650px) {
-
+        .nav_seperator{
+          display:none;
+        }
+        .Logo_section{
+          background-color:unset;
+        }
         .videolandingmp4{
           margin-top: -98%;
           margin-left: -143%;
