@@ -809,3 +809,41 @@ webeyemob.com, 80029, RESELLER
 xandr.com, 15769, RESELLER
 zmaticoo.com, 5135195, RESELLER
 zmaticoo.com, 5135704, RESELLER
+adform.com, 2688, RESELLER, 9f5210a2f0999e32
+adform.com, 2904, RESELLER
+adswizz.com, 623, DIRECT
+adswizz.com, 590, RESELLER
+adswizz.com, kriteria, RESELLER
+adswizz.com, 20, RESELLER
+adswizz.com, 318, RESELLER
+adswizz.com, 80, RESELLER
+adswizz.com, 580, RESELLER
+advertising.com, 23089, RESELLER
+advertising.com, 28605, RESELLER
+adyoulike.com, 78afbc34fac571736717317117dfa247, RESELLER
+amxrtb.com, 105199358, RESELLER
+amxrtb.com, 105199691, RESELLER
+appnexus.com, 14416, RESELLER, f5ab79cb980f11d1
+appnexus.com, 14808, RESELLER, f5ab79cb980f11d1
+appnexus.com, 12290, RESELLER
+appnexus.com, 14808, RESELLER
+contextweb.com, 558511, RESELLER
+improvedigital.com, 1699, RESELLER
+indexexchange.com, 191503, RESELLER
+katzdigital.com, 318, RESELLER
+katzdigital.com, 80, RESELLER
+media.net, 8CU3W1785, RESELLER
+onetag.com, 69f48c2160c8113, RESELLER
+pubmatic.com, 158355, RESELLER, 5d62403b186f2ace
+pubnative.net, 1009334, RESELLER, d641df8625486a7b
+risecodes.com, 663791751eb0af000195f5cf, RESELLER
+rubiconproject.com, 26476, RESELLER, 0bfd66d529a55807
+rubiconproject.com, 23844, RESELLER, 0bfd66d529a55807
+rubiconproject.com, 13918, RESELLER, 0bfd66d529a55807
+sharethrough.com, z4z8ek6m, RESELLER, d53b998a7bd4ecd2
+sharethrough.com, iBAzay96, RESELLER, d53b998a7bd4ecd2
+smaato.com, 1100055690, DIRECT, 07bcf65f187117b4
+smaato.com, 1100049216, DIRECT, 07bcf65f187117b5
+sonobi.com, 4a289cdd79, RESELLER, d1a215d9eb5aee9e
+themediagrid.com, 4DQHAP, RESELLER, 35d5010d7789b49d
+video.unrulymedia.com, 6111915185540403805, DIRECT
