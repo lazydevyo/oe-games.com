@@ -1,0 +1,187 @@
+<HTML></HTML>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link href="https://news.oe-games.com/favicon.ico" rel="icon" type="image/x-icon">
+        <link rel="stylesheet" href="fonts.css">
+        <link rel="stylesheet" href="style.css">
+        <title>Copyright Notice</title>
+    </head>
+    
+    <BODY>
+        <div id='navspace'></div>
+        <div id='navigationbar'>
+          <div id='nav_Inner'>
+            <div id='nav_LeftSide'>
+              <div class="Logo_section">
+              <span id='logo_top' ><a href='/'></a></span>
+            </div>
+              <span class="nav_seperator"></span>
+              <a href='/SMXAdrenaline/'><span class='button'>SMX Adrenaline</span></a>
+              <a href='https://news.oe-games.com/p/smx-supermoto-vs-motocross.html'><span class='button'>SMX Supermoto Vs Motocross</span></a>
+              <a href='https://news.oe-games.com/p/souzasim-project-beta.html'><span class='button'>SouzaSim Project</span></a>
+       
+            </div>
+              <div id='nav_Middle'>
+                <span class="nav_seperator"></span>
+                  <a href='https://news.oe-games.com'><span class='button' id='button'>News</span></a>
+                <a href='https://shop.peachy.graphics'><span class='button'>Merch</span></a>
+                <a href='/p/help.html'><span class='button' id='active_button'>Help</span></a>
+              </div>
+              <div id='nav_RightSide'>
+         
+              </div>
+          </div>
+      </div>
+     <div id="page_content">
+      <h1 class="post-title">Copyright Notice</h1>
+        <copyrights>
+          <h2>Music Copyright Information</h2>
+
+          <p>The Coreys (Band) All rights reserved.</p>
+          <p>Mad Way (Band) All rights reserved.</p>
+          <p>Killson (Band) All rights reserved.</p>
+          <p>Deep In The Top (Band) All rights reserved.</p>
+          <p>Junkheart (Band) All rights reserved.</p>
+          <p>D3STAB1LIZED (Band) All rights reserved.</p>
+          <p>Bonecrack (Band) All rights reserved.</p>
+          
+          </copyrights>
+        
+     </div>
+     <div id="footer_f"><div id="peachyfooter">
+
+        <div id="footer_logo"><a href="/"></a></div>
+         
+      <div id="footer_items" >
+          <div class="footer_items_1"> ©2024 OE Games All Rights Reserved<br/>The OE-Games website was designed by 
+              <a href="https://www.peachy.graphics">Peachy Graphics</a> and is powered by 
+              <a href="https://www.blogger.com/">Blogger</a>
+           and <a href="https://pages.github.com/"> GitHub Pages</a>.</div>
+       
+       <div  class="footer_items_2" >
+          <a class="footer_Button" href="/p/help.html">Help</a>
+          <a class="footer_Button" href="/p/privacy-policy.html">Privacy</a>
+          <a class="footer_Button" href="/p/terms-and-privacy.html">Terms</a>
+          <a class="footer_Button" href="/p/about-me.html">About</a>
+      </div>
+      </div>
+          
+         
+          </div></div>
+    </BODY>
+    <script>
+        if ( window !== window.parent ) 
+       {
+       
+       var elements = document.querySelectorAll(".post-image-main");
+       elements.forEach(function(element) {
+         element.classList.remove("post-image-main");
+       });
+       
+               
+       document.getElementById("navspace").remove();
+               document.getElementById("navigationbar").remove();
+               
+                      document.getElementById("peachyfooter").remove();
+        var mainElement = document.getElementById('main');
+       var childNodes = mainElement.childNodes;
+       
+       for (var i = childNodes.length - 1; i >= 0; i--) {
+           var childNode = childNodes[i];
+           if (childNode.id !== "page_body") {
+               mainElement.removeChild(childNode);
+           }
+       }
+                   var style = document.createElement('style');
+           style.innerHTML = 'body { background-color: transparent; }' +
+                             '#page_body {transform:scale(1); }' +
+                             '#Blog1 { transform: scale(1.4); margin-top: 352px; width: 425px; }' +
+       '.item-view .main-container  { max-width: calc(100% - 763px); }' +
+              '.item-view .centered-bottom  { max-width: unset; }' +
+         '.page { overflow: hidden; }' +
+        '.post-wrapper { box-shadow: 1px 1px 7px 1px #00000024; background-color:transparent;}' +
+               '.post { background-color:#61616138!important; font-family:Roboto; color:#fff;}' +
+       '.post a { color:#fff!important; font-weight:bold;}' +
+               '.post-filter-message { Display:None;}' + 
+               '.centered-top-container { Display:None;}' + 
+               '#Blog1 {margin-top: 207px;}';
+               
+        
+           document.head.appendChild(style);
+              window.addEventListener('DOMContentLoaded', function() {
+             var anchors = document.getElementsByTagName('a');
+             for (var i = 0; i < anchors.length; i++) {
+               anchors[i].setAttribute('target', '_blank');
+               anchors[i].setAttribute('rel', 'noopener noreferrer');
+             }
+           });
+       } 
+       else 
+       {     
+             // The page is not in an iframe   
+       }
+       
+       
+            
+         </script>  
+         <script>
+           console.log(location.pathname);
+         if(!location.pathname.includes(".html")){
+           $(".centered").css("margin-top","0px");  
+           }
+       
+         </script>
+         <script>
+             //not used
+       if (matchMedia) {
+           const mq = window.matchMedia("(min-width: 845px)");
+           mq.addListener(WidthChange);
+           WidthChange(mq);
+         }
+         
+       
+         function WidthChange(mq) {
+           if (mq.matches) {
+        
+           } else {
+             
+               
+               }
+               
+               
+           }
+         
+         
+           //not used
+           
+             var prevScrollpos = window.pageYOffset;
+               window.onscroll = function() {
+               var currentScrollPos = window.pageYOffset;
+               if (prevScrollpos > currentScrollPos) {
+               document.getElementById("navigationbar").style.top = "0";
+               } else {
+               document.getElementById("navigationbar").style.top = "-84px";
+               }
+               prevScrollpos = currentScrollPos;    
+           }
+         </script>
+       
+           <script>
+               setTimeout(function() {
+               resizeHeightOfMyDiv();
+       
+               $(window).on("resize", function() {
+                   resizeHeightOfMyDiv();
+               });
+            }, 300);
+              function resizeHeightOfMyDiv(){
+        var cw = $('.post iframe').width() / 1.75;
+             console.log($('.post iframe').width());
+       $('.post iframe:not(#bgfullscreenv)').css({'height':cw+'px'});
+             }
+       
+             
+             $('.post-body').first().find('img').first().parent().remove();
+         </script>
+    </HTML>
