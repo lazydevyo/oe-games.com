@@ -847,3 +847,109 @@ smaato.com, 1100049216, DIRECT, 07bcf65f187117b5
 sonobi.com, 4a289cdd79, RESELLER, d1a215d9eb5aee9e
 themediagrid.com, 4DQHAP, RESELLER, 35d5010d7789b49d
 video.unrulymedia.com, 6111915185540403805, DIRECT
+adform.com, 2671, RESELLER
+admanmedia.com, 2234, DIRECT
+adswizz.com, consumable, DIRECT
+adswizz.com, 116, RESELLER
+adswizz.com, 127, RESELLER
+adswizz.com, 139, RESELLER
+adswizz.com, 144, RESELLER
+adswizz.com, 145, RESELLER
+adswizz.com, 215, RESELLER
+adswizz.com, 226, RESELLER
+adswizz.com, 236, RESELLER
+adswizz.com, 248, RESELLER
+adswizz.com, 252, RESELLER
+adswizz.com, 269, RESELLER
+adswizz.com, 27, RESELLER
+adswizz.com, 33, RESELLER
+adswizz.com, 330, RESELLER
+adswizz.com, 349, RESELLER
+adswizz.com, 370, RESELLER
+adswizz.com, 410, RESELLER
+adswizz.com, 420, RESELLER
+adswizz.com, 430, RESELLER
+adswizz.com, 431, RESELLER
+adswizz.com, 492, RESELLER
+adswizz.com, 515, RESELLER
+adswizz.com, 52, RESELLER
+adswizz.com, 531, RESELLER
+adswizz.com, 577, RESELLER
+adswizz.com, 581, RESELLER
+adswizz.com, 583, RESELLER
+adswizz.com, 584, RESELLER
+adswizz.com, 585, RESELLER
+adswizz.com, 617, RESELLER
+adswizz.com, 618, RESELLER
+adswizz.com, 624, RESELLER
+adswizz.com, 625, RESELLER
+adswizz.com, 649, RESELLER
+adswizz.com, 70, RESELLER
+adswizz.com, 97, RESELLER
+adtonos.com, PUB2790444752, DIRECT
+adwmg.com, 100707, DIRECT, c9688a22012618e7
+adyoulike.com, a2226c27fc2a6773f6a2b365e013513a, RESELLER
+algorix.co, 604610, DIRECT, 5b394c12fea27a1d
+alkimiexchange.com, 7339, DIRECT
+amplifier.audio, PUB2790444752, DIRECT
+app-stock.com, 358747, RESELLER
+appnexus.com, 10040, RESELLER
+appnexus.com, 7556, RESELLER, f5ab79cb980f11d1
+appnexus.com, 15349, RESELLER, f5ab79cb980f11d1
+appnexus.com, 11470, RESELLER
+appnexus.com, 14256, RESELLER, f5ab79cb980f11d1
+awg.la, 23210484553, DIRECT
+axonix.com, 59074, DIRECT, bc385f2b4a87b721
+consumable.com, 2001591, DIRECT, aefcd3d2f45b5070
+contextweb.com, 561913, RESELLER, 89ff185a4c4e857c
+conversantmedia.com, 100087, DIRECT, 03113cd04947736d
+conversantmedia.com, 100308, RESELLER, 03113cd04947736d
+dauup.com, 34141, RESELLER
+decenterads.com, 300197, RESELLER
+eskimi.com, 2020000768, RESELLER
+freewheel.tv, 1607872, RESELLER
+freewheel.tv, 1608036, RESELLER
+google.com, pub-9130183266015225, RESELLER, f08c47fec0942fa0
+google.com, pub-6694481294649483, RESELLER, f08c47fec0942fa0
+improvedigital.com, 2478, RESELLER
+improvedigital.com, 2210, RESELLER
+improvedigital.com, 2174, RESELLER
+leanback.digital, 567824, DIRECT, b1d30350acaf0176
+loopme.com, 11424, RESELLER, 6c8d5f95897a5a3b
+loopme.com, 11386, RESELLER, 6c8d5f95897a5a3b
+loopme.com, 13920, RESELLER, 6c8d5f95897a5a3b
+loopme.com, 11528, RESELLER, 6c805f95897a5a30
+loopme.com, 13900, RESELLER, 6c8d5f95897a5a3b
+media.net, 8CUCB0790, RESELLER
+ogury.com, 5bbe7af9-d51f-499e-a804-db54798d96f4, DIRECT
+onetag.com, 5d0d72448d8bfb0, DIRECT
+outbrain.com, 0089b17935555149a32ed30dc72fc83f2d, RESELLER
+pubmatic.com, 165611, RESELLER, 5d62403b186f2ace
+pubmatic.com, 158408, RESELLER, 5d62403b186f2ace
+pubmatic.com, 156319, RESELLER, 5d62403b186f2ace
+pubmatic.com, 165117, RESELLER, 5d62403b186f2ace
+pubmatic.com, 163238, RESELLER, 5d62403b186f2ace
+rubiconproject.com, 24856, DIRECT, 0bfd66d529a55807
+rubiconproject.com, 25198, RESELLER, 0bfd66d529a55807
+sharethrough.com, XeKuhSkz, RESELLER, d53b998a7bd4ecd2
+sharethrough.com, 6qInf8SY, RESELLER, d53b998a7bd4ecd2
+smartadserver.com, 5044, RESELLER, 060d053dcf45cbf3
+smartadserver.com, 3713, RESELLER, 060d053dcf45cbf3
+smartadserver.com, 4537, RESELLER, 060d053dcf45cbf3
+smilewanted.com, 5371, RESELLER
+sonobi.com, 87f00dcda8, RESELLER, d1a215d9eb5aee9e
+sonobi.com, 5b003395a5, RESELLER, d1a215d9eb5aee9e
+sonobi.com, 7b37f8ccbc, RESELLER, d1a215d9eb5aee9e
+sonobi.com, b43e9530e7, RESELLER, d1a215d9eb5aee9e
+targetspot.com, 354, RESELLER, feb28ed826dcf532
+thebrave.io, 1234633, RESELLER, c25b2154543746ac
+thebrave.io, 1234746, RESELLER, c25b2154543746ac
+themediagrid.com, A8X5S7, DIRECT, 35d5010d7789b49d
+triplelift.com, 12456, RESELLER, 6c33edb13117fd86
+tritondigital.com, 106423, DIRECT, 19b4454d0b87b58b
+venatus.com, 643e75e7bdd2e54e754b7b78, DIRECT
+video.unrulymedia.com, 7491264956381456664, RESELLER
+video.unrulymedia.com, 3948367200, RESELLER
+video.unrulymedia.com, 533898005, RESELLER
+vidoomy.com, 2412786, DIRECT
+zetaglobal.net, 546, RESELLER
