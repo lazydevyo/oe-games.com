@@ -2,15 +2,18 @@
     "mods": [
         {
             "id": 2017241,
-            "title": "City Riding!"
+            "title": "City Riding!",
+            "thumbnail": "original"
         },
         {
             "id": 3550975,
-            "title": "Enjoy A Crazy A$$ City"
+            "title": "Enjoy A Crazy A$$ City",
+            "thumbnail": "original"
         },
         {
             "id": 1643084,
-            "title": "Christmas Has Come!"
+            "title": "Christmas Has Come!",
+            "thumbnail": "original"
         }
     ]
 }
