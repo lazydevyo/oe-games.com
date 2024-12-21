@@ -3,7 +3,12 @@
         {
             "id": 2017241,
             "title": "City Riding!",
-            "thumbnail": "original"
+            "thumbnail": "https://oe-games.com/images/SMX_FeaturedMods/cityday_211224.jpg"
+        },
+        {
+            "id": 2038781,
+            "title": "Team XRM is Looking for a Rider",
+            "thumbnail": "https://oe-games.com/images/SMX_FeaturedMods/xrm_211224.jpg"
         },
         {
             "id": 3550975,
@@ -17,12 +22,7 @@
         },
         {
             "id": 2903286,
-            "title": "Check What's Possible with",
-            "thumbnail": "original"
-        },
-        {
-            "id": 2038781,
-            "title": "Team XMR is looking for a rider",
+            "title": "Check What's Possible using the Track Editor",
             "thumbnail": "original"
         }
     ]
