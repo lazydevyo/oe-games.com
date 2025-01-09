@@ -449,16 +449,18 @@ a:hover{
         height:100%;
         display: block;
       }
-  #peachyfooter {
-    display: flex;
-    width: 1203px;
-    font-size: 12px;
-    padding: 10px;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
-
-  }
+      #peachyfooter {
+        display: flex;
+        width: 70%;
+        font-size: 12px;
+        padding: 10px;
+        padding-left: 15%;
+        padding-right: 15%;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+    
+      }
   #footer_items{
     height: 80px;
     display: flex;
